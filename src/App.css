@@ -41,4 +41,27 @@
 
 .yachts{
   border:1px solid green;
+
+}
+.booking img {
+  width:3%;
+  height:auto;
+}
+
+@media only screen and (min-width: 1024px) {
+  
+  .yachts{
+    display:flex;
+    flex-flow: row wrap;
+    border: 1px solid red;
+  }
+  .card{
+    width:20%;
+
+  }
+
+.card-text ul{
+  height: 28rem;
+ 
+}
 }
