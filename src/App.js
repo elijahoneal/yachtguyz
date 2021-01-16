@@ -4,11 +4,11 @@ import { Jumbotron, Card, CardImg, CardText, CardBody,
 import './App.css';
 import logo from './images/yachtguyz.svg'
 import knottyLaneBG from './images/48aknottylane_1.jpg'
-
+import BoatList from './BoatList'
 
 const cardStyle = {
-  width:'33%',
-  backgroundColor:'grey'
+  backgroundColor:'yellow',
+  display: 'none'
 }
 function App() {
   return (
@@ -27,21 +27,36 @@ function App() {
         <p className="lead">Book the perfect yacht for your event!</p>
         <hr className="my-2" />
         <p>Yacht rentals are as simple as ever thanks to The Yacht Guyz. An assortment of vessels are at your disposal. Each equipped for small or large capacities.</p>
+        <p>Perfect for birthdays, anniversaries, fishing, or cruising on the water.</p>
         <p className="lead">
-          <Button color="primary">Learn More</Button>
+          <Button color="warning">Learn More</Button>
         </p>
       </Jumbotron>
         </section>
         <section className='yachts'>
-        <Card style = {cardStyle}>
-        <CardImg top width="100%" src={logo} alt="Card image cap" />
-        <CardBody>
-          <CardTitle tag="h5">Card title</CardTitle>
-          <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button>
-        </CardBody>
-      </Card>
+          {BoatList.map( boat => {
+            return(
+              <Card style = {cardStyle}>
+                <CardImg top width="100%" src={boat.image} alt="Card image cap" />
+                <CardBody>
+                  <CardTitle tag="h5">{boat.title}</CardTitle>
+                  <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
+                  <CardText>
+                      {boat.details.map( item =>{
+                        return(
+                          <ul>
+                          <li>{item}</li>
+                          {console.log(item)}
+                          </ul>
+                        )
+                      })}
+                    </CardText>
+                  <Button>Button</Button>
+                </CardBody>
+              </Card>
+            )
+          })}
+        
         </section>
       </main>
     </div>
