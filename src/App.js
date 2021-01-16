@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import { Jumbotron, Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'reactstrap';
+  CardTitle, Modal, ModalHeader, ModalBody, ModalFooter, Button } from 'reactstrap';
 import './App.css';
 import logo from './images/yachtguyz.svg'
 import knottyLaneBG from './images/48aknottylane_1.jpg'
 import BoatList from './BoatList'
 import insta from './images/instagram.svg'
 import phone from './images/phone-icon.svg'
+import Carousel from './Carousel';
+
+
 const cardStyle = {
   backgroundColor:'yellow',
   
@@ -44,7 +47,7 @@ function App() {
                 <CardImg top width="100%" src={boat.image} alt="Card image cap" />
                 <CardBody>
                   <CardTitle tag="h5">{boat.title}</CardTitle>
-                  <CardSubtitle tag="h6" className="mb-2 text-muted">Card subtitle</CardSubtitle>
+                  
                   <CardText>
                   <ul>
                       {boat.details.map( item =>{
@@ -61,7 +64,7 @@ function App() {
                       <Modal isOpen={modal} toggle={toggle} className='gallery'>
                         <ModalHeader toggle={toggle}>Modal title</ModalHeader>
                         <ModalBody>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                          <Carousel></Carousel>
                         </ModalBody>
                         <ModalFooter>
                           <Button color="primary" onClick={toggle}>Do Something</Button>{' '}

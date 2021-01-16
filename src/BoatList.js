@@ -1,16 +1,18 @@
 import naomi from './images/36naomi_3.jpg'
+
+
 const BoatList = [
     {
-      id:'Naomi36ft',
-      title: '36ft yacht “Naomi”',
-      image: naomi,
-       details: [
+        id:'Naomi36ft',
+        title: '36ft yacht “Naomi”',
+        image: naomi,
+        details: [
            
                 'Seats up to 10 Guest, plenty of seating on the hull and rear of the yacht.',
                 'Upgraded Bluetooth sound system.',
                 'Equipped with a restroom, bedroom, kitchen and dining room.',
                 'Captain, fuel, float mat to hold 6 people included.'
-              ]
+              ],
     },
     {
         id:'KnottyLane48ft',
