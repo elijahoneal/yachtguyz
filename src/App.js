@@ -35,10 +35,9 @@ function App() {
         <hr className="my-2" />
         <p>Yacht rentals are as simple as ever thanks to The Yacht Guyz. An assortment of vessels are at your disposal. Each equipped for small or large capacities.</p>
         <p>Perfect for birthdays, anniversaries, fishing, or cruising on the water.</p>
-        <p className="lead">
-          <Button color="warning">Featured</Button>
-        </p>
+        <Carousel></Carousel>
       </Jumbotron>
+   
         </section>
         <section className='yachts'>
           {BoatList.map( boat => {
@@ -48,8 +47,8 @@ function App() {
                 <CardBody>
                   <CardTitle tag="h5">{boat.title}</CardTitle>
                   
-                  <CardText>
-                  <ul>
+                  <CardText tag="ul">
+   
                       {boat.details.map( item =>{
                         return(
                           
@@ -57,14 +56,14 @@ function App() {
                           
                         )
                       })}
-                      </ul>
+           
                     </CardText>
                     <div>
                       <Button color="danger" onClick={toggle}>View Gallery</Button>
                       <Modal isOpen={modal} toggle={toggle} className='gallery'>
                         <ModalHeader toggle={toggle}>Modal title</ModalHeader>
                         <ModalBody>
-                          <Carousel></Carousel>
+   
                         </ModalBody>
                         <ModalFooter>
                           <Button color="primary" onClick={toggle}>Do Something</Button>{' '}
