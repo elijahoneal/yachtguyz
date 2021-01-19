@@ -4,13 +4,14 @@
 }
 
 
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  background-color:#dab637;
+  box-shadow: none;
+  border: none;
+  padding: 1rem 0.5rem;
+  font-size:1.2rem;
 }
-
+/* Header */
 .App-header {
   background-color: #282c34;
   position:relative;
@@ -27,6 +28,7 @@
   position: relative;
   opacity: 0.3;
 }
+
 .launch{
   position:absolute;
   top: 50%;
@@ -38,19 +40,56 @@
 .logo{
   margin-bottom:2rem;
 }
-
-.yachts{
-  border:1px solid green;
-
+/* Jumbotron */
+.jumbotron {
+  height:100vh;
+  margin: 0 auto;
+  background-color: #f2f2f2;
 }
-.booking img {
-  width:3%;
-  height:auto;
+.display-3{
+  font-size:2.5rem;
+  color:#dab637;
 }
+
 .carousel-item img {
   width: 100%;
   height:auto;
 }
+
+/* Main Section */
+.yachts{
+  display:flex;
+  flex-direction: column;
+
+}
+
+li {
+  list-style-image:url(./anchor.svg);
+  padding-left:0.5rem;
+  text-align: left;
+}
+/* Form */
+.hidden{
+  display:none;
+}
+form {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* Footer */
+footer {
+  display:flex;
+  justify-content: space-evenly;
+  height:2rem;
+  margin:2rem auto 0;
+}
+footer img {
+  width:12%;
+  height:auto;
+  padding-right:0.5rem;
+}
+
 @media only screen and (min-width: 1024px) {
   
   .yachts{
