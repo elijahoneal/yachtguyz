@@ -1,14 +1,12 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Jumbotron, Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import './App.css';
-import { Link } from 'react-router-dom'
 import logo from './images/yachtguyz.svg'
 import knottyLaneBG from './images/48aknottylane_1.jpg'
 import BoatList from './BoatList'
 import insta from './images/instagram.svg'
 import phone from './images/phone-icon.svg'
 import Carousel from './Carousel';
-
 
 function App() {
 
@@ -73,7 +71,7 @@ function App() {
         </article>
       </main>
       <footer>
-        <a href= 'https://www.instagram.com/theyachtguyz/' target='_blank'>
+        <a href= 'https://www.instagram.com/theyachtguyz/' target='_blank' rel="noreferrer">
         <div className='insta'>
             <img src = {insta} alt="https://www.instagram.com/theyachtguyz/"></img><span>@theyachtguyz</span>
         </div>
