@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { Jumbotron, Card, CardImg, CardText, CardBody,
-  CardTitle } from 'reactstrap';
+import React from 'react'
+import { Jumbotron, Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import './App.css';
+import { Link } from 'react-router-dom'
 import logo from './images/yachtguyz.svg'
 import knottyLaneBG from './images/48aknottylane_1.jpg'
 import BoatList from './BoatList'
@@ -18,13 +18,13 @@ function App() {
 
         <section className='launch'>
           <img className='logo' src = {logo} alt = 'The YachtGuyz Gold Logo'></img>
-          <button>Set Sail Today</button>
+         <a href = '#Jumbrotron'><button>Set Sail Today</button> </a>
         </section>
 
       </header>
       <main>
         <section className='intro'>
-          <Jumbotron>
+          <Jumbotron id='Jumbrotron'>
           <h1 className="display-3">Need A Yacht? Call Us, Why Not!</h1>
           <p className="lead">Book the perfect yacht for your event!</p>
           <hr className="my-2" />
@@ -66,15 +66,17 @@ function App() {
                     <input name="email" id= "email" type="text" placeholder="Your emailname@business.com"/>
                     <label htmlFor="message">Message</label>
                     <textarea name="message" id="message"></textarea>
-                    <button type = "submit">Submit</button>
+                    <button className='contact-button' type = "submit">Submit</button>
                 </form>
                
         </article>
       </main>
       <footer>
+        <a href= 'https://www.instagram.com/theyachtguyz/' target='_blank'>
         <div className='insta'>
             <img src = {insta} alt="https://www.instagram.com/theyachtguyz/"></img><span>@theyachtguyz</span>
         </div>
+        </a>
         <div className ='phone'>
             <img src = {phone} alt='Phone by Iconographer from the Noun Project'></img><span>954-591-8389</span>
         </div>

@@ -1,8 +1,12 @@
 .App {
   text-align: center;
   min-width: 375px;
+  font-family: 'Oswald', sans-serif;
 }
 
+a{
+  color: #bf9b30;
+}
 
 button {
   background-color:#dab637;
@@ -10,6 +14,8 @@ button {
   border: none;
   padding: 1rem 0.5rem;
   font-size:1.2rem;
+  font-family: 'Yellowtail', cursive;
+  color: #282c34;
 }
 /* Header */
 .App-header {
@@ -45,10 +51,19 @@ button {
   height:100vh;
   margin: 0 auto;
   background-color: #f2f2f2;
+  color:#bf9b30;
 }
+
+.jumbotron li {
+  list-style-image:none;
+}
+  
+
+
 .display-3{
   font-size:2.5rem;
-  color:#dab637;
+  color:	#a67c00;
+  font-family: 'Yellowtail', cursive;
 }
 
 .carousel-item img {
@@ -60,8 +75,17 @@ button {
 .yachts{
   display:flex;
   flex-direction: column;
-
+  color: #bf9b30;
 }
+
+
+.card-title{
+  color: #a67c00;
+  font-family: 'Yellowtail', cursive;
+  font-size: 1.5rem;
+}
+
+
 
 li {
   list-style-image:url(./anchor.svg);
@@ -72,10 +96,37 @@ li {
 .hidden{
   display:none;
 }
+
+.booking{
+  width: 80%;
+  margin:1rem auto;
+
+}
+
+.booking h2{
+  font-family: 'Yellowtail', cursive;
+  color: #a67c00;
+  
+}
+
+
 form {
   display:flex;
   flex-direction: column;
   align-items: center;
+  color: #bf9b30;
+  width:100%;
+  margin: 1rem auto;
+}
+
+label, input, textarea {
+  width:100%;
+  margin: 0.2rem auto;
+}
+
+.contact-button{
+  width: 100%;
+  margin-top:1rem;
 }
 /* Footer */
 footer {
@@ -83,6 +134,7 @@ footer {
   justify-content: space-evenly;
   height:2rem;
   margin:2rem auto 0;
+  color: #bf9b30;
 }
 footer img {
   width:12%;
