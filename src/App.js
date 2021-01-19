@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Jumbotron, Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 import './App.css';
 import { Link } from 'react-router-dom'
@@ -9,8 +9,9 @@ import insta from './images/instagram.svg'
 import phone from './images/phone-icon.svg'
 import Carousel from './Carousel';
 
+
 function App() {
-  
+
   return (
     <div className="App">
       <header className="App-header">

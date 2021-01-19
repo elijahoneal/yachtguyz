@@ -11,6 +11,10 @@ import naomi2 from './images/gallery/naomi_2.jpg'
 import naomi3 from './images/gallery/naomi_3.jpg'
 import naomi4 from './images/gallery/naomi_4.jpg'
 import naomi5 from './images/gallery/naomi_5.jpg'
+import sundancer1 from './images/gallery/sundancer_1.jpg'
+import sundancer2 from './images/gallery/sundancer_2.jpg'
+import sundancer3 from './images/gallery/sundancer_3.jpg'
+import sundancer4 from './images/gallery/sundancer_4.jpg'
 import knotty1 from './images/gallery/aknottylane_1.jpg'
 import knotty2 from './images/gallery/aknottylane_2.jpg'
 import knotty3 from './images/gallery/aknottylane_3.jpg'
@@ -37,131 +41,154 @@ const items = [
         {
             src: naomi1,
             altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            caption: '"Naomi" -Slide1'
           },
           { 
             src: naomi2,
             altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            caption: '"Naomi" -Slide2'
           },
           { 
             src: naomi3,
             altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            caption: '"Naomi" -Slide3'
           },
           { 
             src: naomi4,
             altText: 'Slide 3',
-            caption: 'Slide 3'
+            caption: '"Naomi" -Slide4'
           },
           { 
             src: naomi5,
             altText: 'Slide 3',
-            caption: 'Slide 3'
+            caption: '"Naomi" -Slide5'
           },
- 
+        
+
+          {
+            src: sundancer1,
+            altText: '42ft yacht "Sundancer"',
+            caption: '"Sundancer" -Slide1'
+          },
+          { 
+            src: sundancer2,
+            altText: '42ft yacht "Sundancer"',
+            caption: '"Sundancer" -Slide2'
+          },
+          { 
+            src: sundancer3,
+            altText: '42ft yacht "Sundancer"',
+            caption: '"Sundancer" -Slide3'
+          },
+          { 
+            src: sundancer4,
+            altText:'42ft yacht "Sundancer"',
+            caption: '"Sundancer" -Slide4'
+          },
+    
     
         {
             src: knotty1,
             altText: '48ft yacht “Knotty Lane”',
-            caption: '48ft yacht “Knotty Lane”'
+            caption: '“Knotty Lane” -Slide1'
           },
           { 
             src: knotty2,
             altText: '48ft yacht “Knotty Lane”',
-            caption: '48ft yacht “Knotty Lane”'
+            caption: '“Knotty Lane” -Slide2'
           },
           { 
             src: knotty3,
             altText: '48ft yacht “Knotty Lane”',
-            caption: '48ft yacht “Knotty Lane”'
+            caption: '“Knotty Lane” -Slide3'
           },
           { 
             src: knotty4,
             altText: 'Slide 3',
-            caption: 'Slide 3'
+            caption: '“Knotty Lane” -Slide4'
           },
           { 
             src: knotty5,
             altText: 'Slide 3',
-            caption: 'Slide 3'
+            caption: '“Knotty Lane” -Slide5'
           },
    
     
         {
-            id:'Naomi36ft',
+            
             src: searay1,
-            altText: '48ft yacht “Knotty Lane”',
-            caption: '48ft yacht “Knotty Lane”'
+            altText: '55ft yacht “Sea Ray”',
+            caption: '“Sea Ray” -Slide1'
           },
           { 
-            id:'imgsKnottyLane48ft',
+            
             src: searay2,
-            altText: '48ft yacht “Knotty Lane”',
-            caption: '48ft yacht “Knotty Lane”'
+            altText: '55ft yacht “Sea Ray”',
+            caption:  '“Sea Ray” -Slide2'
           },
           { 
-            id:'imgsSeaRay55ft',
+           
             src: searay3,
-            altText: '48ft yacht “Knotty Lane”',
-            caption: '48ft yacht “Knotty Lane”'
+            altText: '55ft yacht “Sea Ray”',
+            caption:  '“Sea Ray” -Slide3'
           },
           { 
-            id:'imgsCaprice130ft',
+            
             src: searay4,
-            altText: 'Slide 3',
-            caption: 'Slide 3'
+            altText: '55ft yacht “Sea Ray”',
+            caption:  '“Sea Ray” -Slide4'
           },
           { 
-            id:'imgsCatalina130ft',
+            
             src: searay5,
-            altText: 'Slide 3',
-            caption: 'Slide 3'
+            altText: '55ft yacht “Sea Ray”',
+            caption: '“Sea Ray” -Slide5'
           },
    
   
         {
-            id:'Naomi36ft',
+            
             src: caprice1,
-            altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            altText: '130ft yacht "Caprice"',
+            caption: '"Caprice" -Slide1'
           },
           { 
-            id:'imgsKnottyLane48ft',
+            
             src: caprice2,
-            altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            altText: '130ft yacht "Caprice"',
+            caption: '"Caprice" -Slide2'
           },
           { 
-            id:'imgsSeaRay55ft',
+            
             src: caprice3,
-            altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            altText: '130ft yacht "Caprice"',
+            caption: '"Caprice" -Slide3'
           },
   
+
         {
-            id:'Naomi36ft',
+           
             src: catalina1,
-            altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            altText: '130ft yacht "Catalina"',
+            caption: '"Catalina" -Slide1'
           },
           { 
-            id:'imgsKnottyLane48ft',
+            
             src: catalina2,
-            altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            altText: '130ft yacht "Catalina"',
+            caption: '"Catalina" -Slide2'
           },
           { 
-            id:'imgsSeaRay55ft',
+            
             src: catalina3,
-            altText: '36ft yacht "Naomi"',
-            caption: '36ft yacht "Naomi"'
+            altText: '130ft yacht "Catalina"',
+            caption:'"Catalina" -Slide3'
           },
           { 
-            id:'imgsCaprice130ft',
+            
             src: catalina4,
-            altText: 'Slide 3',
-            caption: 'Slide 3'
+            altText: '130ft yacht "Catalina"',
+            caption: '"Catalina" -Slide4'
           }
     
     ]
