@@ -7,9 +7,15 @@ import BoatList from './BoatList'
 import insta from './images/instagram.svg'
 import phone from './images/phone-icon.svg'
 import Carousel from './Carousel';
-
+import { gsap } from "gsap";
 function App() {
+  gsap.from('.App-header', {duration: 1, opacity: 0 });
+// gsap.to('.App-header', {duration: 1, opacity: 1 });
 
+const fadeIn = () => {
+  gsap.from('.jumbotron', {duration: 2, opacity: 0 });
+  // gsap.to('.jumbotron', {duration: 1, opacity: 1 });
+}
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +23,7 @@ function App() {
 
         <section className='launch'>
           <img className='logo' src = {logo} alt = 'The YachtGuyz Gold Logo'></img>
-         <a href = '#Jumbrotron'><button>Set Sail Today</button> </a>
+         <a href = '#Jumbrotron' onClick={fadeIn}><button>Set Sail Today</button> </a>
         </section>
 
       </header>
