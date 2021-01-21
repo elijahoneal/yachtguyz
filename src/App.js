@@ -62,7 +62,7 @@ const fadeIn = (e) => {
         <article className='booking'>
             <h2>Book the perfect yacht</h2>
             <p>Contact us today via email or phone to plan your next event.</p>
-            <form name="contact" method="POST" netlify-honeypot="bot-field" ata-netlify="true"  >
+            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true"  >
                     <label className = "hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
                     <input type="hidden" name="form-name" value="contact" />
                     <label htmlFor="name">Name</label>
