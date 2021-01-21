@@ -7,9 +7,14 @@ import BoatList from './BoatList'
 import insta from './images/instagram.svg'
 import phone from './images/phone-icon.svg'
 import Carousel from './Carousel';
-
+import { gsap } from "gsap";
 function App() {
+  gsap.from('.App-header', {duration: 2, opacity: 0 });
 
+const fadeIn = (e) => {
+  gsap.from('.jumbotron', {duration: 2, opacity: 0 });
+
+}
   return (
     <div className="App">
       <header className="App-header">
@@ -17,7 +22,7 @@ function App() {
 
         <section className='launch'>
           <img className='logo' src = {logo} alt = 'The YachtGuyz Gold Logo'></img>
-         <a href = '#Jumbrotron'><button>Set Sail Today</button> </a>
+         <a href = '#Jumbrotron' onClick={fadeIn}><button>Set Sail Today</button> </a>
         </section>
 
       </header>
@@ -59,6 +64,7 @@ function App() {
             <p>Contact us today via email or phone to plan your next event.</p>
             <form name="contact" method="POST" netlify-honeypot="bot-field" ata-netlify="true"  >
                     <label className = "hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                    <input type="hidden" name="form-name" value="contact" />
                     <label htmlFor="name">Name</label>
                     <input name="name" id= "name" type="text" placeholder="Your Name"/>
                     <label htmlFor="email">Email</label>
