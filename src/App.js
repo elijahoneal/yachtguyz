@@ -9,12 +9,11 @@ import phone from './images/phone-icon.svg'
 import Carousel from './Carousel';
 import { gsap } from "gsap";
 function App() {
-  gsap.from('.App-header', {duration: 1, opacity: 0 });
-// gsap.to('.App-header', {duration: 1, opacity: 1 });
+  gsap.from('.App-header', {duration: 2, opacity: 0 });
 
-const fadeIn = () => {
+const fadeIn = (e) => {
   gsap.from('.jumbotron', {duration: 2, opacity: 0 });
-  // gsap.to('.jumbotron', {duration: 1, opacity: 1 });
+
 }
   return (
     <div className="App">
@@ -65,6 +64,7 @@ const fadeIn = () => {
             <p>Contact us today via email or phone to plan your next event.</p>
             <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true"  >
                     <label className = "hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                    <input type="hidden" name="form-name" value="contact" />
                     <label htmlFor="name">Name</label>
                     <input name="name" id= "name" type="text" placeholder="Your Name"/>
                     <label htmlFor="email">Email</label>
