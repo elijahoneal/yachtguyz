@@ -57,7 +57,7 @@ function App() {
         <article className='booking'>
             <h2>Book the perfect yacht</h2>
             <p>Contact us today via email or phone to plan your next event.</p>
-            <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true"  >
+            <form name="contact" method="POST" netlify-honeypot="bot-field" ata-netlify="true"  >
                     <label className = "hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
                     <label htmlFor="name">Name</label>
                     <input name="name" id= "name" type="text" placeholder="Your Name"/>
