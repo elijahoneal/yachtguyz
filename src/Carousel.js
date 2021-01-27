@@ -4,7 +4,6 @@ import {
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption
 } from 'reactstrap';
 import naomi1 from './images/gallery/naomi_1.jpg'
 import naomi2 from './images/gallery/naomi_2.jpg'
@@ -22,16 +21,15 @@ import knotty4 from './images/gallery/aknottylane_4.jpg'
 import knotty5 from './images/gallery/aknottylane_5.jpg'
 import searay1 from './images/gallery/55ftsearay_1.jpg'
 import searay2 from './images/gallery/55ftsearay_2.jpg'
-import searay3 from './images/gallery/55ftsearay_3.jpg'
 import searay4 from './images/gallery/55ftsearay_4.jpg'
 import searay5 from './images/gallery/55ftsearay_5.jpg'
-import caprice1 from './images/gallery/caprice_1.jpg'
-import caprice2 from './images/gallery/caprice_2.jpg'
-import caprice3 from './images/gallery/caprice_3.jpg'
-import catalina1 from './images/gallery/catalina_1.jpg'
-import catalina2 from './images/gallery/catalina_2.jpg'
-import catalina3 from './images/gallery/catalina_3.jpg'
-import catalina4 from './images/gallery/catalina_4.jpg'
+// import caprice1 from './images/gallery/caprice_1.jpg'
+// import caprice2 from './images/gallery/caprice_2.jpg'
+// import caprice3 from './images/gallery/caprice_3.jpg'
+// import catalina1 from './images/gallery/catalina_1.jpg'
+// import catalina2 from './images/gallery/catalina_2.jpg'
+// import catalina3 from './images/gallery/catalina_3.jpg'
+// import catalina4 from './images/gallery/catalina_4.jpg'
 
 
 
@@ -41,49 +39,49 @@ const items = [
         {
             src: naomi1,
             altText: '36ft yacht "Naomi"',
-            caption: '"Naomi" -Slide1'
+            caption: ''
           },
           { 
             src: naomi2,
             altText: '36ft yacht "Naomi"',
-            caption: '"Naomi" -Slide2'
+            caption: ''
           },
           { 
             src: naomi3,
             altText: '36ft yacht "Naomi"',
-            caption: '"Naomi" -Slide3'
+            caption: ''
           },
           { 
             src: naomi4,
             altText: 'Slide 3',
-            caption: '"Naomi" -Slide4'
+            caption: ''
           },
           { 
             src: naomi5,
             altText: 'Slide 3',
-            caption: '"Naomi" -Slide5'
+            caption: ''
           },
         
 
           {
             src: sundancer1,
-            altText: '42ft yacht "Sundancer"',
-            caption: '"Sundancer" -Slide1'
+            altText: '42ft yacht "Side Chick"',
+            caption: ''
           },
           { 
             src: sundancer2,
             altText: '42ft yacht "Sundancer"',
-            caption: '"Sundancer" -Slide2'
+            caption: ''
           },
           { 
             src: sundancer3,
             altText: '42ft yacht "Sundancer"',
-            caption: '"Sundancer" -Slide3'
+            caption: ''
           },
           { 
             src: sundancer4,
             altText:'42ft yacht "Sundancer"',
-            caption: '"Sundancer" -Slide4'
+            caption: ''
           },
     
     
@@ -127,12 +125,6 @@ const items = [
             caption:  '“Sea Ray” -Slide2'
           },
           { 
-           
-            src: searay3,
-            altText: '55ft yacht “Sea Ray”',
-            caption:  '“Sea Ray” -Slide3'
-          },
-          { 
             
             src: searay4,
             altText: '55ft yacht “Sea Ray”',
@@ -146,50 +138,50 @@ const items = [
           },
    
   
-        {
+        // {
             
-            src: caprice1,
-            altText: '130ft yacht "Caprice"',
-            caption: '"Caprice" -Slide1'
-          },
-          { 
+        //     src: caprice1,
+        //     altText: '130ft yacht "Caprice"',
+        //     caption: '"Caprice" -Slide1'
+        //   },
+        //   { 
             
-            src: caprice2,
-            altText: '130ft yacht "Caprice"',
-            caption: '"Caprice" -Slide2'
-          },
-          { 
+        //     src: caprice2,
+        //     altText: '130ft yacht "Caprice"',
+        //     caption: '"Caprice" -Slide2'
+        //   },
+        //   { 
             
-            src: caprice3,
-            altText: '130ft yacht "Caprice"',
-            caption: '"Caprice" -Slide3'
-          },
+        //     src: caprice3,
+        //     altText: '130ft yacht "Caprice"',
+        //     caption: '"Caprice" -Slide3'
+        //   },
   
 
-        {
+        // {
            
-            src: catalina1,
-            altText: '130ft yacht "Catalina"',
-            caption: '"Catalina" -Slide1'
-          },
-          { 
+        //     src: catalina1,
+        //     altText: '130ft yacht "Catalina"',
+        //     caption: '"Catalina" -Slide1'
+        //   },
+        //   { 
             
-            src: catalina2,
-            altText: '130ft yacht "Catalina"',
-            caption: '"Catalina" -Slide2'
-          },
-          { 
+        //     src: catalina2,
+        //     altText: '130ft yacht "Catalina"',
+        //     caption: '"Catalina" -Slide2'
+        //   },
+        //   { 
             
-            src: catalina3,
-            altText: '130ft yacht "Catalina"',
-            caption:'"Catalina" -Slide3'
-          },
-          { 
+        //     src: catalina3,
+        //     altText: '130ft yacht "Catalina"',
+        //     caption:'"Catalina" -Slide3'
+        //   },
+        //   { 
             
-            src: catalina4,
-            altText: '130ft yacht "Catalina"',
-            caption: '"Catalina" -Slide4'
-          }
+        //     src: catalina4,
+        //     altText: '130ft yacht "Catalina"',
+        //     caption: '"Catalina" -Slide4'
+        //   }
     
     ]
 
@@ -225,7 +217,7 @@ const BoatCarousel = (props) => {
                 key={boat.src}
               >
                 <img src={boat.src} alt={boat.altText} />
-                <CarouselCaption captionText={boat.caption} captionHeader={boat.caption} />
+                
               </CarouselItem>
      
     );

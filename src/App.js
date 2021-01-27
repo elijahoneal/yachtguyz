@@ -32,8 +32,8 @@ const fadeIn = (e) => {
           <h1 className="display-3">Need A Yacht? Call Us, Why Not!</h1>
           <p className="lead">Book the perfect yacht for your event!</p>
           <hr className="my-2" />
-          <p>Yacht rentals are as simple as ever thanks to The Yacht Guyz. An assortment of vessels are at your disposal. Each equipped for small or large capacities.</p>
-          <p>Perfect for birthdays, anniversaries, fishing, or cruising on the water.</p>
+          <p>Yacht rentals are as simple as ever thanks to The Yacht Guyz. An assortment of vessels are at your disposal. Each equipped for small or large groups.</p>
+          <p>Perfect for birthdays, bridal parties, anniversaries, or cruising on the water.</p>
           <Carousel></Carousel>
       </Jumbotron>
    

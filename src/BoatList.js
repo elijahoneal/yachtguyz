@@ -5,11 +5,11 @@ import sundancer1 from './images/gallery/sundancer_1.jpg'
 
 import knotty1 from './images/gallery/aknottylane_1.jpg'
 
-import searay3 from './images/gallery/55ftsearay_3.jpg'
+import searay4 from './images/gallery/55ftsearay_4.jpg'
 
-import caprice1 from './images/gallery/caprice_1.jpg'
+import caprice1 from './images/gallery/caprice_1-COVID.jpg'
 
-import catalina1 from './images/gallery/catalina_1.jpg'
+import catalina1 from './images/gallery/catalina_1-COVID.jpg'
 
 
 const BoatList = [
@@ -27,7 +27,7 @@ const BoatList = [
     },
     {
       id:'Sundancer42ft',
-      title: '42ft yacht “Sundancer”',
+      title: '42ft yacht “Side Chick”',
       image: sundancer1,
       details: [
          
@@ -52,7 +52,7 @@ const BoatList = [
     {
         id:'SeaRay55ft',
         title: '55ft yacht "Sea Ray"',
-        image: searay3,
+        image: searay4,
          details: [
              
                 'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
