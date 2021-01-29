@@ -25,7 +25,7 @@ const BoatList = [
         image: naomi3,
         details: [
            
-                'Seats up to 10 Guest, plenty of seating on the hull and rear of the yacht.',
+                'Seats up to 9 Guest, plenty of seating on the hull and rear of the yacht.',
                 'Upgraded Bluetooth sound system.',
                 'Equipped with a restroom, bedroom, kitchen and dining room.',
                 'Captain, fuel, float mat to hold 6 people included.'
@@ -76,7 +76,7 @@ const BoatList = [
            
               'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
               'Upgraded Bluetooth sound system.',
-              'Equipped with a 2 restrooms, 2 bedrooms, kitchen and living room area.',
+              'Equipped with a 2 restrooms, 5 bedrooms, kitchen and living room area.',
               'Captain,fuel, & soft drinks included.'
             ],
      
@@ -89,7 +89,7 @@ const BoatList = [
          
             'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
             'Upgraded Bluetooth sound system.',
-            'Equipped with a 2 restrooms, 2 bedrooms, kitchen and living room area.',
+            'Equipped with a 2 restrooms, 3 bedrooms, kitchen and living room area.',
             'Captain,fuel, & soft drinks included.'
           ],
    
@@ -101,8 +101,9 @@ const BoatList = [
    details: [
        
           'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
-          'Upgraded Bluetooth sound system.',
-          'Equipped with a 2 restrooms, 2 bedrooms, kitchen and living room area.',
+          'Equipped with a 2 restrooms, 4 bedrooms, kitchen and living room area.',
+          'A club on the water with disco lights, strobes, fog machine set up',
+         ' Perfect for a night time yacht prty, unparalleled to any other yacht',
           'Captain,fuel, & soft drinks included.'
         ],
  
