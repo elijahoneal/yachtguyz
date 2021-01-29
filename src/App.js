@@ -11,7 +11,7 @@ import { gsap } from "gsap";
 function App() {
   gsap.from('.App-header', {duration: 2, opacity: 0 });
 
-const fadeIn = (e) => {
+const fadeIn = () => {
   gsap.from('.jumbotron', {duration: 2, opacity: 0 });
 
 }

@@ -82,6 +82,9 @@ button {
   color: #bf9b30;
 }
 
+.card {
+  border: none;
+}
 
 .card-title{
   color: #a67c00;
@@ -124,7 +127,7 @@ form {
 }
 
 label, input, textarea {
-  width:100%;
+  width:80%;
   margin: 0.2rem auto;
 }
 
@@ -146,28 +149,43 @@ footer img {
   padding-right:0.5rem;
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 768px){
   .jumbotron{
+
     height:auto;
 
   }
 
   .carousel {
-    width:70%;
+    width:45%;
+    height:auto;
     margin:auto;
   }
+  .card {
+    width:40%;
+  }
+
   .yachts{
     display:flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
   }
+}
+
+@media only screen and (min-width: 1024px) {
+  
+
+  .carousel {
+    width:33%;
+  }
+ 
   .card{
     width:33%;
 
   }
 
-.card-text ul{
-  height: 28rem;
- 
-}
+  .card-text ul{
+    height: 28rem;
+  
+  }
 }
