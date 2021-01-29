@@ -7,6 +7,12 @@ import knotty1 from './images/gallery/aknottylane_1.jpg'
 
 import searay4 from './images/gallery/55ftsearay_4.jpg'
 
+import stasea1 from './images/gallery/72ftstasea_1.jpg'
+
+import lalionea3 from './images/gallery/84ftlalionea_3.jpg'
+
+import perishing1 from './images/gallery/90ftperishing_1.jpg'
+
 import caprice1 from './images/gallery/caprice_1-COVID.jpg'
 
 import catalina1 from './images/gallery/catalina_1-COVID.jpg'
@@ -51,7 +57,7 @@ const BoatList = [
     },
     {
         id:'SeaRay55ft',
-        title: '55ft yacht "Sea Ray"',
+        title: '55ft yacht Fly bridge',
         image: searay4,
          details: [
              
@@ -62,6 +68,45 @@ const BoatList = [
               ],
        
     },
+    {
+      id:'Stasea72ft',
+      title: '72ft yacht "Sta-Sea"',
+      image: stasea1,
+       details: [
+           
+              'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
+              'Upgraded Bluetooth sound system.',
+              'Equipped with a 2 restrooms, 2 bedrooms, kitchen and living room area.',
+              'Captain,fuel, & soft drinks included.'
+            ],
+     
+  },
+  {
+    id:'Lalioneaft',
+    title: '84ft yacht "La Lionea"',
+    image: lalionea3,
+     details: [
+         
+            'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
+            'Upgraded Bluetooth sound system.',
+            'Equipped with a 2 restrooms, 2 bedrooms, kitchen and living room area.',
+            'Captain,fuel, & soft drinks included.'
+          ],
+   
+},
+{
+  id:'Perishing90ft',
+  title: '90ft yacht "Perishing"',
+  image: perishing1,
+   details: [
+       
+          'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
+          'Upgraded Bluetooth sound system.',
+          'Equipped with a 2 restrooms, 2 bedrooms, kitchen and living room area.',
+          'Captain,fuel, & soft drinks included.'
+        ],
+ 
+},
     {
         id:'Caprice130ft',
         title: '130ft yacht "Caprice"',

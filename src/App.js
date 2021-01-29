@@ -9,7 +9,7 @@ import phone from './images/phone-icon.svg'
 import Carousel from './Carousel';
 import { gsap } from "gsap";
 function App() {
-  gsap.from('.App-header', {duration: 2, opacity: 0 });
+ 
 
 const fadeIn = () => {
   gsap.from('.jumbotron', {duration: 2, opacity: 0 });

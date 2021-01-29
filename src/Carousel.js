@@ -23,6 +23,18 @@ import searay1 from './images/gallery/55ftsearay_1.jpg'
 import searay2 from './images/gallery/55ftsearay_2.jpg'
 import searay4 from './images/gallery/55ftsearay_4.jpg'
 import searay5 from './images/gallery/55ftsearay_5.jpg'
+import stasea1 from './images/gallery/72ftstasea_1.jpg'
+import stasea2 from './images/gallery/72ftstasea_2.jpg'
+import stasea3 from './images/gallery/72ftstasea_3.jpg'
+
+import lalionea1 from './images/gallery/84ftlalionea_1.jpg'
+import lalionea2 from './images/gallery/84ftlalionea_2.jpg'
+import lalionea3 from './images/gallery/84ftlalionea_3.jpg'
+
+import perishing1 from './images/gallery/90ftperishing_1.jpg'
+import perishing2 from './images/gallery/90ftperishing_2.jpg'
+import perishing3 from './images/gallery/90ftperishing_3.jpg'
+import perishing4 from './images/gallery/90ftperishing_4.jpg'
 // import caprice1 from './images/gallery/caprice_1.jpg'
 // import caprice2 from './images/gallery/caprice_2.jpg'
 // import caprice3 from './images/gallery/caprice_3.jpg'
@@ -136,7 +148,66 @@ const items = [
             altText: '55ft yacht “Sea Ray”',
             caption: '“Sea Ray” -Slide5'
           },
+         { 
+          src: stasea1,
+          altText: '55ft yacht “Sea Ray”',
+          caption: '“Sea Ray” -Slide1'
+        },
+        { 
+          
+          src: stasea2,
+          altText: '55ft yacht “Sea Ray”',
+          caption:  '“Sea Ray” -Slide2'
+        },
+        { 
+          
+          src: stasea3,
+          altText: '55ft yacht “Sea Ray”',
+          caption:  '“Sea Ray” -Slide4'
+        },
+       
+        {
+        src:lalionea1,
+        altText: '55ft yacht “Sea Ray”',
+        caption: '“Sea Ray” -Slide1'
+      },
+      { 
+        
+        src: lalionea2,
+        altText: '55ft yacht “Sea Ray”',
+        caption:  '“Sea Ray” -Slide2'
+      },
+      { 
+        
+        src: lalionea3,
+        altText: '55ft yacht “Sea Ray”',
+        caption:  '“Sea Ray” -Slide4'
+      },
+      
    
+    {
+      src: perishing1,
+      altText: '55ft yacht “Sea Ray”',
+      caption: '“Sea Ray” -Slide1'
+    },
+    { 
+      
+      src: perishing2,
+      altText: '55ft yacht “Sea Ray”',
+      caption:  '“Sea Ray” -Slide2'
+    },
+    { 
+      
+      src: perishing3,
+      altText: '55ft yacht “Sea Ray”',
+      caption:  '“Sea Ray” -Slide4'
+    },
+    { 
+      
+      src: perishing4,
+      altText: '55ft yacht “Sea Ray”',
+      caption: '“Sea Ray” -Slide5'
+    },
   
         // {
             
