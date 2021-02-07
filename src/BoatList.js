@@ -103,7 +103,7 @@ const BoatList = [
           'Seats up to 12 Guest, plenty of seating on the hull and rear of the yacht.',
           'Equipped with a 2 restrooms, 4 bedrooms, kitchen and living room area.',
           'A club on the water with disco lights, strobes, fog machine set up',
-         ' Perfect for a night time yacht prty, unparalleled to any other yacht',
+         ' Perfect for a night time yacht party, unparalleled to any other yacht',
           'Captain,fuel, & soft drinks included.'
         ],
  
